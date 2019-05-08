@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+     android:gravity="center"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select your  language"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="@color/coloryellow"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <CheckBox
+        android:id="@+id/checkandroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="android"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/colorred"
+        />
+
+    <CheckBox
+        android:id="@+id/checkjava"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="java"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/colorred"
+        />
+
+    <CheckBox
+        android:id="@+id/checkpython"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="python"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/colorred"
+        />
+
+    <CheckBox
+        android:id="@+id/checkruby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ruby"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/colorred"
+        />
+
+    <CheckBox
+        android:id="@+id/checknet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=".net"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/colorred"
+        />
+
+    </LinearLayout>
+</RelativeLayout>
