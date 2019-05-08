@@ -14,7 +14,7 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Select your  language"
+        android:text="Select your programming language"
         android:textStyle="bold"
         android:textSize="25dp"
         android:gravity="center"
